@@ -72,6 +72,9 @@
     <None Include="BastuTempWebGauge.ino">
       <FileType>CppCode</FileType>
     </None>
+    <None Include="index.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Visual Micro\.BastuTempWebGauge.vsarduino.h" />

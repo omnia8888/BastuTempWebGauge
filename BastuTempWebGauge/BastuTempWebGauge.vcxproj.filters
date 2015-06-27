@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BastuTempWebGauge.ino" />
+    <None Include="index.htm" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Visual Micro\.BastuTempWebGauge.vsarduino.h">
