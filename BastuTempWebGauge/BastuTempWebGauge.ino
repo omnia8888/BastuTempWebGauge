@@ -75,10 +75,16 @@ void setup()
 		Serial.print(Ethernet.localIP()[thisByte], DEC);
 		Serial.print(".");
 	}
-	Serial.println(" ");	mDallasTemp.InitSensors();	//Try to get and print one temp
+	Serial.println(" ");
+
+	mDallasTemp.InitSensors();
+	//Try to get and print one temp
 	temperature = mDallasTemp.getSensorTempC(0);
 	Serial.print("Temp = ");
-	Serial.println(temperature);		Serial.println("Setup done!");
+	Serial.println(temperature);
+	
+	Serial.println("Setup done!");
+
 	
 	server.begin();           // start to listen for clients
 }
